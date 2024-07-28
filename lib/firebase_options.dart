@@ -50,21 +50,11 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBgA2yshOi_gYtfVVGHGIsTgSsRmtVDbdM',
-    appId: '1:816989312105:web:bc43d7ebf81b4732d87ef8',
-    messagingSenderId: '816989312105',
-    projectId: 'the-end-capstone',
-    authDomain: 'the-end-capstone.firebaseapp.com',
-    storageBucket: 'the-end-capstone.appspot.com',
-    measurementId: 'G-2HR2QE3W3S',
+
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAGpOSZQ4YgUAVqehGSddofPoAkaaglGa4',
-    appId: '1:816989312105:android:9796002fd603d857d87ef8',
-    messagingSenderId: '816989312105',
-    projectId: 'the-end-capstone',
-    storageBucket: 'the-end-capstone.appspot.com',
+  
   );
 
 }
