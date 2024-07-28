@@ -352,7 +352,7 @@ class _MapPageState extends State<MapPage> {
       return <Marker>[
         Marker(
           markerId: MarkerId('Something'),
-          position: LatLng(14.455372191994792, 120.99455215378282),
+          position: LatLng("YOUR OWN LATLNG"),
           icon: BitmapDescriptor.defaultMarker,
           infoWindow: InfoWindow(title: 'Shop'),
         )
@@ -390,7 +390,7 @@ class _MapPageState extends State<MapPage> {
           markers: Set<Marker>.of(markers.values),
           mapType: MapType.normal,
           initialCameraPosition: CameraPosition(
-            target: LatLng(14.455372191994792, 120.99455215378282),
+            target: LatLng(YOUR_OWN_LATLNG),
             zoom: 15,
           ),
           onMapCreated: (GoogleMapController controller) {
