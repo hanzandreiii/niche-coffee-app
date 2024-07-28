@@ -1,4 +1,4 @@
 class MapKey {
   static const String GOOGLE_MAPS_API_KEY =
-      "AIzaSyBwgNnXzC8d7TffWAEkqpHeBvdWPUeEjqk";
+      "YOUR_KEY_HERE";
 }
