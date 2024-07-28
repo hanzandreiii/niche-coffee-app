@@ -36,8 +36,8 @@ class _MapPageState extends State<MapPage> {
 
   late BitmapDescriptor myIcon;
   static const LatLng startPoint =
-      LatLng(14.455372191994792, 120.99455215378282);
-  static const LatLng endPoint = LatLng(14.455372191994792, 120.98455215378282);
+      LatLng(YOURLATLNG);
+  static const LatLng endPoint = LatLng(YOURLATLNG);
   LatLng? currentPos;
 
   Map<PolylineId, Polyline> polylines = {};
@@ -291,7 +291,7 @@ class _MapPageState extends State<MapPage> {
                 await NearbyLocationApi.instance.getNearby(
                     userLocation:
                         // markerPosition,
-                        GeoPoint(4.8119283, 7.046236272219636),
+                        GeoPoint(YOURLATLNG),
                     radius: 1000,
                     type: 'restaurants',
                     keyword: '');
